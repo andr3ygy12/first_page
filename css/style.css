@@ -5,4 +5,136 @@
 body{
     background-color: #333;
     color: #fff;
+    margin: 0;
 }
+
+.lista-main{
+    list-style-type: none;
+    background-color: #666;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    text-align: left;
+    
+}
+
+.lista-item{
+    display: inline-block;
+    height: 30px;   
+}
+
+.lista-link{
+    font-family: 'Fira Sans', sans-serif;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    padding: 1em .5em;
+    height: 50px;
+    width: 100px;
+    font-size: 1em .5em;
+}
+/*No he aprendido aún pseudo elementos*/
+.lista-link:active{
+    color: #fff;
+}
+.lista-link:hover{
+    background-color: #333;
+    color: #fff;
+}
+
+.titulo-principal{
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 3em;
+}
+
+.section-covid-19{
+    width: 100%;
+}
+
+.titulo-seccion{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    color: pink;
+    
+}
+
+.article-1{
+    overflow: hidden;
+    
+    
+}
+.titulo-article{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 2em;
+    color: pink;
+    text-align: center;
+}
+
+.parrafo-seccion{
+    font-size: 1.5em;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.casos-confirmados,
+.casos-activos,
+.recuperados,
+.fallecidos{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    width: 320px;
+    height: 250px;
+    background-color: #fff;
+    color: #000;
+    float: left;
+    border-radius: 30px;
+    box-shadow: 2px 2px rgb(221, 171, 255) , inset 2px 2px rgb(221, 171, 255);
+    margin-bottom: 20px;
+    margin-right: 40px;
+}
+
+.fallecidos:hover{
+    transform: scale(1.1);
+}
+.casos-activos:hover{
+    transform: scale(1.1);
+}
+.casos-confirmados:hover{
+    transform: scale(1.1);
+}
+.recuperados:hover{
+    transform: scale(1.1);
+}
+.casos-confirmados{
+    margin-left: 50px;
+}
+/*
+.casos-confirmados{
+    margin-left: 17px;
+}
+*/
+.boton-info{
+    font-family: 'Fira Sans', sans-serif;
+    color: rgb(250, 250, 250);
+    display: block;
+    padding: 20px;
+    width: 220px;
+    height: 70px;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(255, 71, 71);
+    
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+.boton-info:hover{
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+
