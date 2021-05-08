@@ -32,73 +32,79 @@
     <!--Fuentes from GOOGLE FONTS-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Open+Sans&display=swap" rel="stylesheet">
+
+    <!--FONT AWESOME-->
+    <script src="https://kit.fontawesome.com/739db76352.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header>
         <nav>
+            <!--IMAGE LOGO-->
             <ul class="lista-main">
                 <li class="lista-item"><a href="#" class="lista-link">Inicio</a> </li>
                 <li class="lista-item"><a href="#" class="lista-link">Contacto</a> </li>
                 <li class="lista-item"><a href="#" class="lista-link">Imagenes</a> </li>
+                <div class="corazon-container">
+                    <p class="prueba-text">lava tus manos</p>
+                    <img src="assets/imagenes/healthcare.svg" alt="una mano sosteniendo un corazon en un contexto de salud" class="img-healt">
+                </div>
             </ul>
         </nav>
     </header>
     <main>
-        <h1 class="titulo-principal">Cultura Tecnologica Colombiana</h1>
-
+        <h1 class="titulo-principal">Situación actual y de interes en Colombia</h1>
         <section class="section-covid-19">
             <!--En esta sección irá la información de Colombia-->
-            <h2 class="titulo-seccion">Situación actual y de interes en Colombia</h2>
+            
             <!--Primer articulo-->
             <article class="article-1">
                 <header class="article-1-header">
                     <h2 class="titulo-article">Covid-19</h2>
                 </header>
-                <p class="parrafo-seccion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, nesciunt dolorum! Architecto harum
+                <p class="parrafo-seccion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, nesciunt
+                    dolorum! Architecto harum
                     aliquam sunt, ab odit iusto. Quo rem facere eos esse quisquam perspiciatis veritatis aut, suscipit
                     dolor veniam.</p>
                 <div class="casos-confirmados">
                     <h3>Casos confirmados</h3>
-                    <p>2.951.101</p>
-                    <a href="#" class="boton-info">Saber más</a>
+                    <p class="numero-casos">2.951.101</p>
+                    <a href="https://covid19.minsalud.gov.co/" class="boton-info" target="_blank">Saber más</a>
                 </div>
 
                 <div class="casos-activos">
                     <h3>Casos activos</h3>
-                    <p>91.703</p>
-                    <a href="#" class="boton-info">Saber más</a>
+                    <p class="numero-casos">91.703</p>
+                    <a href="https://covid19.minsalud.gov.co/" class="boton-info" target="_blank">Saber más</a>
                 </div>
 
                 <div class="recuperados">
                     <h3>Recuperados</h3>
-                    <p>91.703</p>
-                    <a href="#" class="boton-info">Saber más</a>
+                    <p class="numero-casos">91.703</p>
+                    <a href="https://covid19.minsalud.gov.co/" class="boton-info" target="_blank">Saber más</a>
                 </div>
 
                 <div class="fallecidos">
                     <h3>Fallecidos</h3>
-                    <p>91.703</p>
-                    <a href="#" class="boton-info">Saber más</a>
+                    <p class="numero-casos">91.703</p>
+                    <a href="https://covid19.minsalud.gov.co/" class="boton-info" target="_blank">Saber más</a>
                 </div>
             </article>
         </section>
-
         <section class="section-tech-co">
             <!--Tecnologia en Colombia-->
-            <h2>Avance tecnologico en Colombia</h2>
             <article class="mision-tic">
                 <header>
-                    <h2 class="titulo-article"> Mision MinTic 2022</h2>
-                    <p>
+                    <h2 class="titulo-article--2"> Mision MinTic 2022</h2>
+                    <p class="parrafo-seccion--2">
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit quasi accusantium
                         quisquam. Est explicabo numquam obcaecati sunt nemo expedita ut, dicta impedit. Accusantium
                         laboriosam recusandae totam laborum. Et, molestias vero?
                     </p>
                     <div class="mision-tic-img">
-                        <p>imagen mision tic 2022</p>
+                        <img src="assets/imagenes/robot.svg" alt="Imagen de un robot" class="img-robot">
                     </div>
-                    <a href="#" class="mision-tic-link">Ver más</a>
+                    <a href="https://www.misiontic2022.gov.co/portal/" class="mision-tic-link" target="_blank">Ver más</a>
 
                 </header>
             </article>
@@ -107,16 +113,29 @@
                 <header>
                     <h2 class="titulo-article">Mercado Libre y Rappi apostando por el talento Colombiano</h2>
                 </header>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio quas recusandae quisquam tenetur
+                <p class="parrafo-seccion--2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio quas recusandae quisquam tenetur
                     quasi nihil asperiores voluptates veniam similique repellat, nemo fugit minima iusto libero dolorum,
                     error laborum qui sequi.</p>
                 <div class="mercadolibre-rappi-img">
-                    <p>imagen mercado libre y rappi</p>
+                    <img src="assets/imagenes/coding.svg" alt="Imagen de un robot" class="img-codding">
                 </div>
-                <a href="#">ver más</a>
+                <a href="https://www.mintic.gov.co/portal/inicio/" class="mision-tic-link rappi-link" target="_blank" >ver más</a>
             </article>
         </section>
     </main>
+
+    <footer>
+        <header>
+            <h2 class="titulo-footer">Siguenos en redes sociales</h2>
+        </header>
+        <section class="seccion-footer">
+            <a href="https://www.facebook.com/"><i class="fab fa-facebook-f icons" ></i></a>
+            <a href="https://www.instagram.com/"><i class="fab fa-instagram icons"></i></a>
+            <a href="https://twitter.com/"><i class="fab fa-twitter-square icons"></i></a>
+            <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in icons"></i></a>
+        </section>
+
+    </footer>
 </body>
 
 </html>
